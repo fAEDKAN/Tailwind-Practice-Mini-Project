@@ -5,3 +5,4 @@ postcss.config.mjs
 tailwind.config.json
 next.config.mjs
 jsconfig.json
+tailwind.config.js
