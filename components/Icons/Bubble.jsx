@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
-export default () => (
+const Bubble = () => (
   <svg class="h-12 w-12" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
@@ -29,3 +28,5 @@ export default () => (
     </g>
   </svg>
 );
+
+module.exports = Bubble;
